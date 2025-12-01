@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, purple, pink);
+  height: 100vh;
+}
+
+/* Caixa principal (a tela) */
+#bg {
+  display: grid;
+  place-items: start;
+  background-color: rgb(164, 85, 255);
+  width: 700px;
+  height: 850px;
+  border: solid rgb(26, 26, 70) 5px;
+  border-radius: 15px;
+}
+
+/* Conteúdo dentro da tela */
+.box {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  gap: 30px; /* espaçamento entre os blocos */
+}
+
+/* Estilos de texto */
+#h1 {
+  font-size: 80px;
+  color: aliceblue;
+  background-color: darkblue;
+  width: 600px;
+  height: 200px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+#p1 {
+  font-size: 40px;
+  color: white;
+}
+
+/* O coração */
+#heart {
+  opacity: 0.2;
+  width: 100px;
+  max-width: 600px;
+  margin-top: 100px; /* 200px abaixo do texto */
+}
+
+/* A foto */
+#eu_e_elo {
+  visibility: hidden;
+  width: 400px;
+  height: auto;
+  margin-top: -400px;
+}
